@@ -8,6 +8,7 @@ function ListProject({ projects }) {
         projects.map((project) => (
           <CardProject
             key={project.id}
+            link={project.link}
             image={project.image}
             type={project.type}
             tag1={project.tag1}
