@@ -8,7 +8,7 @@ const getDataExperience = () => ([
     },
     {
         id: 2,
-        date: "Jan 2024 - Mar 2024",
+        date: "Jan 2024 - Apr 2024",
         locate: "Tegal, Indonesia",
         company: "Oxtofi Indonesia",
         role: "UI/UX Designer",
