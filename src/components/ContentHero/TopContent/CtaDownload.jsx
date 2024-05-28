@@ -5,14 +5,14 @@ function CtaDownload() {
   return (
     <div className="cta-download d-flex">
       <Link
-        to="https://drive.google.com/file/d/16nti3FmGFZAEl8mzEgr-4fh5wA3EVkU_/view?usp=sharing"
+        to="https://drive.google.com/file/d/1rm7xx67ytfN7AofWPixC-tpR-NUKY78V/view?usp=sharing"
         target="blank"
         className="cta-download__button"
         style={{ textDecoration: "none" }}
       >
-        Download CV
+        Download Resume
       </Link>
-      <div className="sosmed d-flex">
+      <div className="sosmed d-flex linkedin">
         <Link
           to="https://www.linkedin.com/in/irzanraka/"
           target="blank"
@@ -38,14 +38,14 @@ function CtaDownload() {
           />
         </Link>
         <Link
-          to="https://www.instagram.com/r.zannn"
+          to="https://www.behance.net/irzanraka"
           target="blank"
           style={{ textDecoration: "none" }}
           className="d-flex align-items-center"
         >
           <img
-            src="images/instagram-logo.svg"
-            alt="Instagram"
+            src="images/behance-logo.svg"
+            alt="Behance"
             className="social-icon"
           />
         </Link>

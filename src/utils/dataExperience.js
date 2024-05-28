@@ -5,6 +5,10 @@ const getDataExperience = () => ([
         locate: "Yogyakarta, Indonesia",
         company: "Eduwork",
         role: "UI/UX Designer",
+        desc1: "Create diagrams, mockups, prototypes, and usage scenarios for clear design communication with stakeholders.",
+        desc2: "Transform complex requirements into user-friendly web designs, balancing user experience and business goals.",
+        desc3: "Conduct usability testing, competitive analysis, and surveys to gather insights for improving user experience and market positioning."
+
     },
     {
         id: 2,
@@ -12,10 +16,9 @@ const getDataExperience = () => ([
         locate: "Tegal, Indonesia",
         company: "Oxtofi Indonesia",
         role: "UI/UX Designer",
-        desc1: "Attend the daily meeting on Discord/Figma",
-        desc2: "Create questions for the user survey",
-        desc3: "Collect the survey data and discuss to identify user problems and user needs",
-        desc4: "Create a wireframe and hi-fi design for Oxtolance Website"
+        desc1: "Create user-friendly wireframes and high-fidelity designs for the Oxtolance website, ensuring an optimal user experience.",
+        desc2: "Uncover and analyze key insights from survey data to accurately identify user problems, needs, and preferences.",
+        desc3: "Formulate insightful questions to collect comprehensive user feedback through surveys.",
     },
     {
         id: 3,
@@ -23,11 +26,9 @@ const getDataExperience = () => ([
         locate: "Jakarta, Indonesia",
         company: "Compfest",
         role: "UI/UX Designer Mentee",
-        desc1: "Selected to be one of 20 participants out of 700+ registers",
-        desc2: "Build teamwork to solve a case study about Financial Literacy in Digital Bank",
-        desc3: "Hard work during a three weeks bootcamp Final Project Presentation",
-        desc4: "Work together with 3 other divisions in the Academy: Data Science, Product Management, and Software Engineering for a Case Study Presentation on Graduation Night"
-
+        desc1: "Selected to be one of 20 participants out of 700+ registers.",
+        desc2: "Collaborated effectively with a team to solve a complex case study on Financial Literacy in Digital Banking.",
+        desc3: "Collaborated with Data Science, Product Management, and Engineering teams to present a graduation night case study.",
     }
 ])
 

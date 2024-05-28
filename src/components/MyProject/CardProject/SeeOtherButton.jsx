@@ -9,7 +9,7 @@ function SeeOtherButton() {
       style={{ textDecoration: "none" }}
       className="see-other d-flex justify-content-center align-items-center"
     >
-      <h6 className="mb-0">See Other Project</h6>
+      <h6 className="mb-0">View Other Project</h6>
     </Link>
   );
 }

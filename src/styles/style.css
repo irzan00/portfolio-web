@@ -184,12 +184,12 @@ p {
 }
 
 .cta-download .social-icon {
-  opacity: 0.3;
+  opacity: 1;
   transition: opacity 0.5s ease;
 }
 
 .cta-download .social-icon:hover {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .top-content {
@@ -329,7 +329,7 @@ p {
   height: 33.5rem;
 
   border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  /* border: 1px solid rgba(255, 255, 255, 0.25); */
   background: rgba(255, 255, 255, 0.05);
 }
 
@@ -448,7 +448,7 @@ p {
 }
 
 .left-content p {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   font-family: Genos;
   font-size: 1.5rem;
   font-style: normal;
@@ -482,9 +482,9 @@ p {
 }
 
 .right-content li {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   font-family: Genos;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

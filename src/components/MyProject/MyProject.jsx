@@ -40,10 +40,10 @@ function MyProject({ projectRef, handleScrollToProject }) {
         header="My Project"
         title={
           <span>
-            <span className="text-hijau">Design and Code </span>Project
+            <span className="text-hijau">Selected </span>Project
           </span>
         }
-        desc="This project focuses on UI/UX Design and Front-end web development that I worked on during my college years. I achieved this project through bootcamps, competitions, and courses that I undertook."
+        desc="This project focuses on UI/UX Design that I worked on during my college years. I achieved this project through bootcamps, competitions, and courses that I undertook."
       />
       <ListProject projects={getProjectData()} />
       <SeeOtherButton />

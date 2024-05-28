@@ -17,7 +17,7 @@ function CardProject({ link, image, type, tag1, tag2, title }) {
         <div className="card-project__content d-flex flex-column">
           <div className="card-project__top d-flex flex-column">
             <div className="card-project__tagline d-flex gap-2">
-              <TypeProject type={type} />
+              {/* <TypeProject type={type} /> */}
               <TagProject tag={tag1} />
               {tag2 && <TagProject tag={tag2} />}
             </div>

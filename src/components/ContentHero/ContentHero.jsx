@@ -20,7 +20,7 @@ function ContentHero() {
   return (
     <animated.div className="content-hero container-fluid d-flex" style={props}>
       <TopContent />
-      <CurrentlySkill skills={getSkillData()} />
+      {/* <CurrentlySkill skills={getSkillData()} /> */}
       <ListSpotlight spotlights={getSpotlightData()} />
     </animated.div>
   );
