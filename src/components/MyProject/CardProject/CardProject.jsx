@@ -12,7 +12,7 @@ function CardProject({ link, image, type, tag1, tag2, title }) {
         <img
           src={image}
           alt="Image"
-          style={{ width: "100%", objectFit: "cover" }}
+          style={{ width: "100%", objectFit: "contain", height: "auto" }}
         />
         <div className="card-project__content d-flex flex-column">
           <div className="card-project__top d-flex flex-column">

@@ -69,6 +69,13 @@ p {
   .nav-content {
     padding: 1rem 2rem;
   }
+  .navbar-menu__tengah {
+    flex-direction: column;
+  }
+  .nav-link {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 #navbarSupportedContent .nav-link.custom-link {
@@ -326,7 +333,7 @@ p {
 
 .card-project {
   flex-shrink: 0;
-  height: 33.5rem;
+  height: auto;
 
   border-radius: 1rem;
   /* border: 1px solid rgba(255, 255, 255, 0.25); */
@@ -335,12 +342,12 @@ p {
 
 @media (min-width: 320px) and (max-width: 581.98px) {
   .card-project {
-    height: 40rem;
+    height: auto;
   }
 }
 
 .card-project img {
-  height: 16.875rem;
+  /* height: 16.875rem; */
   flex-shrink: 0;
   border-radius: 1rem 1rem 0 0;
 }
