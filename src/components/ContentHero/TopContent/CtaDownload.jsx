@@ -5,7 +5,7 @@ function CtaDownload() {
   return (
     <div className="cta-download d-flex">
       <Link
-        to="https://drive.google.com/file/d/1rm7xx67ytfN7AofWPixC-tpR-NUKY78V/view?usp=sharing"
+        to="https://drive.google.com/file/d/1jK6W8xibe-OVaE49mQWeDskliwPBYl3i/view?usp=sharing"
         target="blank"
         className="cta-download__button"
         style={{ textDecoration: "none" }}
