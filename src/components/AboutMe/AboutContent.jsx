@@ -1,4 +1,5 @@
 import React from "react";
+import ReadAboutMe from "./ReadAboutMe";
 
 function AboutContent() {
   return (
@@ -23,6 +24,7 @@ function AboutContent() {
           confidently tackle any programming challenge.
         </p>
       </div>
+      <ReadAboutMe />
     </div>
   );
 }

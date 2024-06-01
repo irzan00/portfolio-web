@@ -33,7 +33,7 @@ function AboutMe({ aboutMeRef, handleScrollToAboutMe }) {
       className="about-me w-100 d-flex flex-column flex-xl-row"
       style={props}
     >
-      <img src="images/myphoto.png" alt="MY PHOTO" style={{ width: "285px" }} />
+      <img src="images/myphoto.png" alt="MY PHOTO" style={{ width: "300px", height: "auto" }} />
       <AboutContent />
     </animated.div>
   );
