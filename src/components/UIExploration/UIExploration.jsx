@@ -39,7 +39,7 @@ function UIExploration({ explorationRef, handleScrollToExploration }) {
         header="UI Exploration"
         title={
           <span>
-            I'm <span className="text-hijau">UI Exploration on Behance</span>
+            UI Exploration <span className="text-hijau">on Behance</span>
           </span>
         }
         desc="I have a strong passion for visual design in applications or websites with engaging interactions. Here are the results of my UI explorations."

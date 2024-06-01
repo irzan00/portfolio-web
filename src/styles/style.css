@@ -430,20 +430,20 @@ p {
 
 @media (max-width: 768px) {
   .ui-exploration__carousel {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
 .carousel-inner {
-  transition: opacity 0.5s linear; /* Tambahkan transisi */
+  transition: opacity 0.5s linear;
 }
 
 .carousel-item {
-  opacity: 0; /* Atur opasitas awal menjadi 0 */
+  opacity: 0;
 }
 
 .carousel-item.active {
-  opacity: 1; /* Saat slide aktif, opasitas menjadi 1 */
+  opacity: 1; 
 }
 
 .carousel-item !important {
