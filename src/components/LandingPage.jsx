@@ -8,6 +8,7 @@ class LandingPage extends React.Component {
     super(props);
     this.aboutMeRef = React.createRef();
     this.projectRef = React.createRef();
+    this.explorationRef = React.createRef();
     this.experienceRef = React.createRef();
     this.connectRef = React.createRef();
   }
@@ -16,6 +17,9 @@ class LandingPage extends React.Component {
     this.aboutMeRef.current.scrollIntoView({ behavior: "smooth" });
   };
   handleScrollToProject = () => {
+    this.projectRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+  handleScrollToExploration = () => {
     this.projectRef.current.scrollIntoView({ behavior: "smooth" });
   };
   handleScrollToExperience = () => {
@@ -31,16 +35,19 @@ class LandingPage extends React.Component {
         <Navbar
           handleScrollToAboutMe={this.handleScrollToAboutMe}
           handleScrollToProject={this.handleScrollToProject}
+          handleScrollToExploration={this.handleScrollToExploration}
           handleScrollToExperience={this.handleScrollToExperience}
           handleScrollToConnect={this.handleScrollToConnect}
         />
         <Container
           handleScrollToAboutMe={this.handleScrollToAboutMe}
           handleScrollToProject={this.handleScrollToProject}
+          handleScrollToExploration={this.handleScrollToExploration}
           handleScrollToExperience={this.handleScrollToExperience}
           handleScrollToConnect={this.handleScrollToConnect}
           aboutMeRef={this.aboutMeRef}
           projectRef={this.projectRef}
+          explorationRef={this.explorationRef}
           experienceRef={this.experienceRef}
           connectRef={this.connectRef}
         />

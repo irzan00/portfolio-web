@@ -3,6 +3,7 @@ import React from "react";
 function Navbar({
   handleScrollToAboutMe,
   handleScrollToProject,
+  handleScrollToExploration,
   handleScrollToExperience,
   handleScrollToConnect,
 }) {
@@ -40,6 +41,15 @@ function Navbar({
                   onClick={handleScrollToProject}
                 >
                   My Project
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link custom-link"
+                  href="#exploration"
+                  onClick={handleScrollToExploration}
+                >
+                  UI Exploration
                 </a>
               </li>
               <li className="nav-item">

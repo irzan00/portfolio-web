@@ -6,7 +6,7 @@ function CtaDownload() {
     <div className="cta-download d-flex">
       <Link
         to="https://drive.google.com/file/d/1jK6W8xibe-OVaE49mQWeDskliwPBYl3i/view?usp=sharing"
-        target="blank"
+        target="_blank"
         className="cta-download__button"
         style={{ textDecoration: "none" }}
       >
@@ -15,7 +15,7 @@ function CtaDownload() {
       <div className="sosmed d-flex linkedin">
         <Link
           to="https://www.linkedin.com/in/irzanraka/"
-          target="blank"
+          target="_blank"
           style={{ textDecoration: "none" }}
           className="d-flex align-items-center"
         >
@@ -27,7 +27,7 @@ function CtaDownload() {
         </Link>
         <Link
           to="https://www.github.com/irzan00"
-          target="blank"
+          target="_blank"
           style={{ textDecoration: "none" }}
           className="d-flex align-items-center"
         >
@@ -39,7 +39,7 @@ function CtaDownload() {
         </Link>
         <Link
           to="https://www.behance.net/irzanraka"
-          target="blank"
+          target="_blank"
           style={{ textDecoration: "none" }}
           className="d-flex align-items-center"
         >

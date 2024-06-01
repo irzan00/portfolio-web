@@ -151,7 +151,7 @@ p {
 
 @media (min-width: 0px) and (max-width: 991.98px) {
   .porto-container {
-    padding: 0 2rem; 
+    padding: 0 2rem;
   }
 }
 
@@ -414,6 +414,95 @@ p {
 .see-other:hover {
   background: #71e01b;
   color: #fff;
+}
+
+/* UI Exploration */
+.ui-exploration {
+  padding: 2.5rem 0rem;
+  gap: 5rem;
+}
+
+.ui-exploration__carousel {
+  border-radius: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .ui-exploration__carousel {
+    max-width: 90%;
+  }
+}
+
+.carousel-inner {
+  transition: opacity 0.5s linear; /* Tambahkan transisi */
+}
+
+.carousel-item {
+  opacity: 0; /* Atur opasitas awal menjadi 0 */
+}
+
+.carousel-item.active {
+  opacity: 1; /* Saat slide aktif, opasitas menjadi 1 */
+}
+
+.carousel-item !important {
+  border-radius: 2rem;
+  height: auto;
+}
+
+.image-carousel {
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center !important;
+  padding: 0.5rem 1rem !important;
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  width: 150px;
+  align-items: center !important;
+  gap: 0.5rem;
+  left: 5% !important;
+  border-radius: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.carousel-indicators button {
+  background-color: #fff !important;
+  border: none !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 5rem !important;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.5); /* Warna latar belakang sementara */
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 100%;
 }
 
 /* Working Experience */
