@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ReadAboutMe() {
   return (
     <Link
-      to={"https://drive.google.com/file/d/1tckABzd074TK7UjYcTUJis_5a_Pqf3KD/view?usp=sharing"}
+      to={"https://drive.google.com/file/d/1d9gcD9HCt_UGBmynOq5sgbW4ac4rBcxG/view?usp=sharing"}
       target="_blank"
       style={{ textDecoration: "none" }}
       className="read-aboutme__button cta-download__button"
