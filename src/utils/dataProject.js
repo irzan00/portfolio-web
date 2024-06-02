@@ -28,12 +28,21 @@ const getProjectData = () => [
   },
   {
     id: 4,
-    link: "https://github.com/irzan00/notify-reactApp",
-    image: "images/ImageProject/notify-new.png",
-    type: "Code Project",
-    tag1: "React JS",
-    title: "NOTIFY - A React App for Recording Daily Activities",
+    link: "https://irzanraka.notion.site/Oetara-Oyek-Gulung-Nusatara-Study-Case-fe9c40fcdcbd41b989e88dd5b2395126?pvs=4",
+    image: "images/ImageProject/oetara.png",
+    type: "Design Project",
+    tag1: "UI Design",
+    tag2: "UX Design",
+    title: "Oetara - Helping urban people to purchase authentic Indonesian specialty foods",
   },
+  // {
+  //   id: 5,
+  //   link: "https://github.com/irzan00/notify-reactApp",
+  //   image: "images/ImageProject/notify-new.png",
+  //   type: "Code Project",
+  //   tag1: "React JS",
+  //   title: "NOTIFY - A React App for Recording Daily Activities",
+  // },
 ];
 
 export { getProjectData };
