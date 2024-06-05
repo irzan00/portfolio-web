@@ -46,7 +46,7 @@ function MyProject({ projectRef, handleScrollToProject }) {
         desc="This project focuses on UI/UX Design that I worked on during my college years. I achieved this project through bootcamps, competitions, and courses that I undertook."
       />
       <ListProject projects={getProjectData()} />
-      <SeeOtherButton />
+      {/* <SeeOtherButton /> */}
     </animated.div>
   );
 }
