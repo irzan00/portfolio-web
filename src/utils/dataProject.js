@@ -15,7 +15,7 @@ const getProjectData = () => [
     type: "Design Project",
     tag1: "UI Design",
     tag2: "UX Design",
-    title: "BUDDY - Maximize Productivity with Personal ADHDH Assistant",
+    title: "BUDDY - Maximize Productivity with Personal ADHD Assistant",
   },
   {
     id: 3,
