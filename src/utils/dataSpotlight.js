@@ -14,7 +14,7 @@ const getSpotlightData = () => ([
   {
     id: 3,
     icon: "/images/Icons/bag.svg",
-    type: "Working at",
+    type: "Previous Work",
     fill: "Eduwork as UI/UX Designer",
   },
   {
