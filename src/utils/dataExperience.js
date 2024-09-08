@@ -1,7 +1,7 @@
 const getDataExperience = () => ([
     {
         id: 1,
-        date: "Mar 2024 - Present",
+        date: "Mar 2024 - June 2024",
         locate: "Yogyakarta, Indonesia",
         company: "Eduwork",
         role: "UI/UX Designer",
