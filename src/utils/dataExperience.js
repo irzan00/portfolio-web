@@ -1,6 +1,17 @@
 const getDataExperience = () => ([
     {
         id: 1,
+        date: "Oct 2024 - Present",
+        locate: "South Jakarta, Indonesia",
+        company: "Telkom Indonesia",
+        role: "UI Designer",
+        // desc1: "Create diagrams, mockups, prototypes, and usage scenarios for clear design communication with stakeholders.",
+        // desc2: "Transform complex requirements into user-friendly web designs, balancing user experience and business goals.",
+        // desc3: "Conduct usability testing, competitive analysis, and surveys to gather insights for improving user experience and market positioning."
+
+    },
+    {
+        id: 2,
         date: "Mar 2024 - June 2024",
         locate: "Yogyakarta, Indonesia",
         company: "Eduwork",
@@ -11,7 +22,7 @@ const getDataExperience = () => ([
 
     },
     {
-        id: 2,
+        id: 3,
         date: "Jan 2024 - Apr 2024",
         locate: "Tegal, Indonesia",
         company: "Oxtofi Indonesia",
@@ -21,7 +32,7 @@ const getDataExperience = () => ([
         desc3: "Formulate insightful questions to collect comprehensive user feedback through surveys.",
     },
     {
-        id: 3,
+        id: 4,
         date: "Aug 2023 - Sep 2023",
         locate: "Jakarta, Indonesia",
         company: "Compfest",

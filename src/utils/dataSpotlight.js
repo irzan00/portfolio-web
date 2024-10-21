@@ -44,7 +44,7 @@ const getSpotlightData = () => ([
   {
     id: 8,
     icon: "/images/Icons/bag.svg",
-    type: "Working at",
+    type: "Previous Work",
     fill: "Eduwork as UI/UX Designer",
   },
   {
@@ -58,6 +58,12 @@ const getSpotlightData = () => ([
     icon: "/images/Icons/bag.svg",
     type: "Previous Work",
     fill: "Oxtofi Indonesia as UI/UX Designer",
+  },
+  {
+    id: 11,
+    icon: "/images/Icons/bag.svg",
+    type: "Working at",
+    fill: "Telkom Indonesia as UI Designer",
   }
 ]);
 
