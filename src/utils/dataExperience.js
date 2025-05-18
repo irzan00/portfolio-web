@@ -1,13 +1,15 @@
 const getDataExperience = () => ([
     {
         id: 1,
-        date: "Oct 2024 - Present",
+        date: "Oct 2024 - Mar 2025",
         locate: "South Jakarta, Indonesia",
         company: "Telkom Indonesia",
         role: "UI Designer",
-        // desc1: "Create diagrams, mockups, prototypes, and usage scenarios for clear design communication with stakeholders.",
-        // desc2: "Transform complex requirements into user-friendly web designs, balancing user experience and business goals.",
-        // desc3: "Conduct usability testing, competitive analysis, and surveys to gather insights for improving user experience and market positioning."
+        desc1: "Designed and developed the user interface for the Antares Eazy product across web and mobile platforms.",
+        desc2: "Maintained and updated the Antares Eazy app interface to ensure consistency and incorporate improvements.",
+        desc3: "Collaborated with cross-functional teams (UX Designers, PMs, and Developers) to align on vision and implement optimal solutions.",
+        desc4: "Conducted usability testing to validate design effectiveness and user experience.",
+        desc5: "Partnered with the Big Box Team to integrate a new AI-powered feature into the Antares Eazy app."
 
     },
     {
