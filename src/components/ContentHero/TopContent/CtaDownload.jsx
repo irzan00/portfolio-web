@@ -37,7 +37,7 @@ function CtaDownload() {
             className="social-icon"
           />
         </Link>
-        <Link
+        {/* <Link
           to="https://www.tiktok.com/@ux.raka"
           target="_blank"
           style={{ textDecoration: "none" }}
@@ -48,7 +48,7 @@ function CtaDownload() {
             alt="Tiktok"
             className="social-icon"
           />
-        </Link>
+        </Link> */}
         <Link
           to="https://www.github.com/irzan00"
           target="_blank"
