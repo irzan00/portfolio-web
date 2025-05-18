@@ -5,9 +5,7 @@ function TitleHero() {
     <div className="title-hero container-fluid d-flex flex-column justify-center text-center gap-1 w-100">
       <h1 className="text-white w-100">Hello, <span className="text-hijau">I'm Raka !</span></h1>
       <p className="w-100">
-        I’m a UI/UX Designer with 2 years of experience through community, bootcamps,
-        competitions, and internships. I have also web programming skills,
-        including HTML, CSS, and Javascript.
+      The final semester student of Computer Science at IPB University. A fast and agile learner with 2 years of experience as a UI/UX designer, earned through engagement in community activities, bootcamps, competitions, and internships.
       </p>
     </div>
   );
