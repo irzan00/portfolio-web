@@ -42,10 +42,10 @@ function WorkingExperience({ experienceRef, handleScrollToExperience }) {
             I'm <span className="text-hijau">UI/UX Designer</span>
           </span>
         }
-        desc="Currently, I am a UI/UX Designer Intern at Eduwork. Previously, I had an internship in the same position at Oxtofi Indonesia."
+        desc="At the last time, I've worked as a UI/UX Designer at Telkom Indonesia"
       />
       <div className="working-experience__content d-flex align-items-start">
-        <img src="/images/lineExp.svg" alt="Line" />
+        {/* <img src="/images/lineExp.svg" alt="Line" /> */}
         <ListExperience experiences={getDataExperience()} />
       </div>
     </animated.div>
